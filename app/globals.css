@@ -31,3 +31,126 @@ body {
     text-wrap: balance;
   }
 }
+
+.btn-grad {
+  background: linear-gradient(
+    90deg,
+    rgba(157, 13, 61, 0) -10.64%,
+    #df522b 51.94%,
+    rgba(199, 125, 44, 0) 116.51%
+  );
+  border: 1.4px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(157, 13, 61, 0) -13.1%,
+    #de502c 53.99%,
+    #c6802c 113.76%
+  );
+  border-image-slice: 1;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.border-wave {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  border: 1px solid;
+  border-radius: 50%; /* Makes the border circular */
+  border-image-source: linear-gradient(
+    180deg,
+    #ce722c 0%,
+    rgba(94, 24, 26, 0) 100%
+  );
+  border-image-slice: 1;
+}
+
+.border-wave2 {
+  width: 180px; /* Adjust as needed */
+  height: 180px; /* Adjust as needed */
+  border: 1px solid;
+  border-radius: 50%; /* Makes the border circular */
+  border-image-source: linear-gradient(
+    180deg,
+    #ce722c 0%,
+    rgba(94, 24, 26, 0) 100%
+  );
+  border-image-slice: 1;
+}
+
+.wave-container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  margin-top: 50px; /* Adjust as needed */
+}
+.circle-container {
+  position: relative;
+  width: 500px; /* Adjust container size as needed */
+  height: 500px; /* Adjust container size as needed */
+  margin: 50px auto; /* Adjust margin as needed */
+}
+
+.circle {
+  position: absolute;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    180deg,
+    #ce722c 0%,
+    rgba(94, 24, 26, 0) 100%
+  );
+  border-image-slice: 1;
+  border-radius: 50%;
+}
+.border-gradient {
+  border-image-source: linear-gradient(
+    180deg,
+    #ce722c 0%,
+    rgba(94, 24, 26, 0) 100%
+  );
+  border-image-slice: 1;
+}
+
+
+
+.circle:nth-child(1) {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  top: 75px; /* Adjust as needed */
+  left: 155px; /* Adjust as needed */
+}
+
+.circle:nth-child(2) {
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  top: 50px; /* Adjust as needed */
+  left: 130px; /* Adjust as needed */
+}
+
+.circle:nth-child(3) {
+  width: 250px; /* Adjust as needed */
+  height: 250px; /* Adjust as needed */
+  top: 25px; /* Adjust as needed */
+  left: 105px; /* Adjust as needed */
+}
+.circle:nth-child(4) {
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  top: 1px; /* Adjust as needed */
+  left: 80px; /* Adjust as needed */
+}
+
+.notify {
+  background: linear-gradient(
+    360deg,
+    rgba(157, 13, 61, 0) -23%,
+    rgba(223, 81, 43, 0.76) 45.16%,
+    #bf8c2c 103%
+  );
+}
